@@ -1,46 +1,103 @@
-*{ margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header{
+header {
     text-align: center;
     font-weight: bold;
     margin-top: 5%;
 }
 
-.section_container{
+.section-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 40px;
 }
 
-section
-{  
+section {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 90%;
-    padding: 200px;
+    padding: 40px;
     margin-top: 4%;
-   
     border-radius: 49px;
     background: #e0e0e0;
-    box-shadow:  11px 11px 24px #d9d9d9,-11px -11px 24px #e7e7e7;
-
-    
+    box-shadow: 11px 11px 24px #d9d9d9, -11px -11px 24px #e7e7e7;
 }
 
-
-section div{
+section div {
     font-weight: bold;
+    margin: 20px;
 }
 
-button{
+button {
     text-align: center;
-    padding: 50px;
-    width: 200px;
+    padding: 20px;
+    width: 150px;
     border: none;
     border-radius: 30px;
-    box-shadow:  11px 11px 24px #999999,-11px -11px 24px #e7e7e7;
+    box-shadow: 11px 11px 24px #999999, -11px -11px 24px #e7e7e7;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; /* added transition for hover effect */
+}
+
+button:hover {
+    background: #d0d0d0; /* changed background color on hover */
+    box-shadow: 11px 11px 24px #888888, -11px -11px 24px #f2f2f2; /* changed box-shadow on hover */
+    transform: scale(1.1); /* added scale effect on hover */
+}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    padding: 40px;
+    margin-top: 4%;
+    border-radius: 49px;
+    background: #e0e0e0;
+    box-shadow: 11px 11px 24px #d9d9d9, -11px -11px 24px #e7e7e7;
+}
+
+section div {
+    font-weight: bold;
+    margin: 20px;
+}
+
+button {
+    text-align: center;
+    padding: 20px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 11px 11px 24px #999999, -11px -11px 24px #e7e7e7;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; /* added transition for hover effect */
+}
+
+button:hover {
+    background: #d0d0d0; /* changed background color on hover */
+    box-shadow: 11px 11px 24px #888888, -11px -11px 24px #f2f2f2; /* changed box-shadow on hover */
+    transform: scale(1.1); /* added scale effect on hover */
 }
