@@ -8,6 +8,9 @@ header {
     text-align: center;
     font-weight: bold;
     margin-top: 5%;
+    background: #2E4053; /* dark blue */
+    color: #FFFFFF; /* white */
+    padding: 20px;
 }
 
 .section-container {
@@ -15,6 +18,7 @@ header {
     align-items: center;
     justify-content: center;
     padding: 40px;
+    background: #F7F7F7; /* light gray */
 }
 
 section {
@@ -25,8 +29,8 @@ section {
     padding: 40px;
     margin-top: 4%;
     border-radius: 49px;
-    background: #e0e0e0;
-    box-shadow: 11px 11px 24px #d9d9d9, -11px -11px 24px #e7e7e7;
+    background: #FFFFFF; /* white */
+    box-shadow: 11px 11px 24px #D9D9D9, -11px -11px 24px #E7E7E7;
 }
 
 section div {
@@ -40,64 +44,14 @@ button {
     width: 150px;
     border: none;
     border-radius: 30px;
-    box-shadow: 11px 11px 24px #999999, -11px -11px 24px #e7e7e7;
+    background: #34A853; /* green */
+    color: #FFFFFF; /* white */
     cursor: pointer;
-    transition: all 0.3s ease-in-out; /* added transition for hover effect */
+    transition: all 0.3s ease-in-out;
 }
 
 button:hover {
-    background: #d0d0d0; /* changed background color on hover */
-    box-shadow: 11px 11px 24px #888888, -11px -11px 24px #f2f2f2; /* changed box-shadow on hover */
-    transform: scale(1.1); /* added scale effect on hover */
-}* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header {
-    text-align: center;
-    font-weight: bold;
-    margin-top: 5%;
-}
-
-.section-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-}
-
-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 90%;
-    padding: 40px;
-    margin-top: 4%;
-    border-radius: 49px;
-    background: #e0e0e0;
-    box-shadow: 11px 11px 24px #d9d9d9, -11px -11px 24px #e7e7e7;
-}
-
-section div {
-    font-weight: bold;
-    margin: 20px;
-}
-
-button {
-    text-align: center;
-    padding: 20px;
-    width: 150px;
-    border: none;
-    border-radius: 30px;
-    box-shadow: 11px 11px 24px #999999, -11px -11px 24px #e7e7e7;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out; /* added transition for hover effect */
-}
-
-button:hover {
-    background: #d0d0d0; /* changed background color on hover */
-    box-shadow: 11px 11px 24px #888888, -11px -11px 24px #f2f2f2; /* changed box-shadow on hover */
-    transform: scale(1.1); /* added scale effect on hover */
+    background: #2E865F; /* darker green */
+    box-shadow: 11px 11px 24px #888888, -11px -11px 24px #F2F2F2;
+    transform: scale(1.1);
 }
