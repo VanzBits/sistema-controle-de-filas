@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ 
 header {
     text-align: center;
     font-weight: bold;
@@ -12,7 +12,7 @@ header {
     color: #FFFFFF; /* white */
     padding: 20px;
 }
-
+ 
 .section-container {
     display: flex;
     align-items: center;
@@ -20,7 +20,7 @@ header {
     padding: 40px;
     background: #F7F7F7; /* light gray */
 }
-
+ 
 section {
     display: flex;
     align-items: center;
@@ -32,12 +32,12 @@ section {
     background: #FFFFFF; /* white */
     box-shadow: 11px 11px 24px #D9D9D9, -11px -11px 24px #E7E7E7;
 }
-
+ 
 section div {
     font-weight: bold;
     margin: 20px;
 }
-
+ 
 button {
     text-align: center;
     padding: 20px;
@@ -49,7 +49,7 @@ button {
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
-
+ 
 button:hover {
     background: #2E865F; /* darker green */
     box-shadow: 11px 11px 24px #888888, -11px -11px 24px #F2F2F2;
